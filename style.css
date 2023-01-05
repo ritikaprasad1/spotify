@@ -1,0 +1,312 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Cabin:wght@400;500;600;700&family=Prompt:wght@400;500;600;700;800&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300;400;500;700;900&display=swap'); 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+ }
+ nav{
+    padding: 20px 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    transition: all ease-in-out 0.2s;
+ }
+ nav li{
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 500;
+ }
+ nav li:hover{
+    color:rgb(24, 226, 24);
+ }
+ nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+ }
+ nav img{
+    height: 40px;
+ }
+ .hero{
+    width: 100%;
+    background-image: url(./img/Untitled\ design.png);
+    height: 90vh;
+    background-repeat: cover no repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+ }
+ .img-section{
+    width: 40%;
+    padding-left: 150px;
+ }
+ .img-section img{
+    padding-top: 40px;
+    height: 450px;
+ }
+ .text-section{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+ }
+ .text-section h1{
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 20px;
+ }
+.btn{
+    height: 50px;
+    width: 200px;
+    padding: 5px 10px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    border: none;
+    transition: all ease-in-out 0.3s;
+}
+.btn:hover{
+    font-size:15px;
+    height: 52px;
+    width: 205px;
+}
+.why{
+   
+    padding: 20px 50px;
+    height: 100vh;
+}
+.why h1{
+    font-size: 38px;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    
+}
+ .images{
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.images div{
+    height: 50px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    word-spacing: 2px;
+}
+.images img{
+    height: 150px;
+    margin-bottom: 25px;
+}
+.images h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+.images p{
+    font-size: 14px;
+    /* word-spacing: 2px; */
+}
+.free{
+   
+    background-image: linear-gradient(to top, #620BE6, #B023C2);
+    padding: 100px;
+    text-align: center;
+    color:white;
+    font-size: 40px;
+    font-weight: 900;
+}   
+.ques{
+    padding: 30px 20px;
+}
+.ques h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.qa{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    
+}
+.qa button{
+    align-items: center;
+    height: 75px;
+    text-align: left;
+    padding: 0px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid rgb(230, 225, 225);
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    transition: all ease-in-out 0.3s;
+}
+.qa button:hover{
+    background-color: rgb(240, 236, 236);
+}
+.ready{
+    
+    background-image: url(./img/Untitled\ design.png);
+    background-repeat: no repeat;
+    background-size: cover;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ready h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+.extra{
+    display: none;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.extra img{
+    display: none;
+    height: 400px;
+}
+.extra h1{
+    display: none;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding-top: 60px;
+}
+.first-sec-footer {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.footer-links {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    margin-right: 90px;
+    color: white;
+}
+footer h5{
+    color: grey;
+}
+footer ol{
+    list-style: none;
+    line-height: 2em;
+}
+footer ol li:hover{
+    color:rgb(24, 226, 24);
+}
+.social-footer button{
+    font-size: 20px;
+height: 60px;
+width: 60px;
+margin-right: 15px;
+background-color: #222326;
+color: white;
+border: none;
+ border-radius: 80px;
+
+}
+.social-footer button:hover{
+    color:rgb(24, 226, 24);
+}
+@media(max-width:768px){
+    nav  ul{
+        display: none;
+    }
+    .img-section{
+        display: none;
+    }
+    .text-section{
+        padding-left: 100px;
+        width: 100%;
+    }  
+    .hero{
+        background-repeat: no-repeat;
+        background-size: 120%;
+    }
+    .why{
+        height: auto;
+    }
+    
+    .images{
+        flex-wrap: wrap;
+        height: 1000px;
+        width: 100%;
+        text-align: center;
+    }
+    .images div{
+        display: flex;
+        flex-direction: row;
+        width: 1000px;
+        justify-content: space-between;
+    }
+    .images span{
+       margin-left: 20px;
+       width: 300px;
+       text-align: left;
+    }
+    .extra {
+        display: block;
+        /* padding: 100px 200px; */
+        background-image: url(./img/Untitled\ design.png);
+        background-position: bottom;
+        background-size: contain;
+        background-repeat: no-repeat;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+       background-color:#DA30AF ;
+    }
+    .extra img{
+        display: block;
+        padding-left: 100px;
+
+    }
+    .extra h1{
+        display: block;
+        font-size: 40px;
+        color: white;
+        text-align: center;
+    }
+}
